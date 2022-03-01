@@ -1,0 +1,255 @@
+<!--
+    list
+      a> unordered ul > li
+      b> ordered   ol > li
+    line change    br
+    image <img src = " " alt = "Image not found" height =100 width =200 >AASHNA</img>  alt > alternate , scr > source tag attributes
+    stacking of elements vertically block (new line, entire width, one below other)
+    stacking of elements one beside other inline  (no forced new line, doesnt take whole width, one next to other) 
+    hyper text     a > containing hyperlink
+    <a> <img ... > </a> hyperlink in image
+    for navigation > every html can have unique id(attribute)
+    inline, external, internal css
+    The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.
+    font awesome cloudflare for icon
+    google font for fonts
+    colour picker to choose colour in hexadecimal
+    anchor is inline
+    view port
+    header is also a division
+    underline is text decoration
+    flexbox
+        x axis main axis
+        y axis crossaxis
+            div{display : flex}
+-->
+
+<html>
+
+<head>
+    <title>My Profile</title>
+    <link rel = "stylesheet" href = "mystyle.css">
+    <link rel = "stylesheet" type = "text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href = "" class= "name"><span>Aashna</span> Agarwal</a>
+         <div class="nav">   
+            <a href = "#home">Home</a>
+            <a href = "#about">About</a>
+            <a href = "#acad">Academic background</a>
+            <a href = "#course">Skills</a>
+            <a href = "#project">Projects</a>
+            
+            <a href = "#contact">Contact</a>
+        </div>
+        <div class="follow">
+            <a href = "https://www.linkedin.com/in/aashna-agarwal-676438202" class = "fab fa-linkedin"></a>
+            <a href = "" class = "fab fa-instagram"></a>
+            <a href = "" class = "fab fa-twitter"></a>
+            <a href = "" class = "fab fa-github"></a>
+            </div>
+    </header>
+  
+    
+    <section id="home" class="home">
+        <!--Contents part -->
+        <div class="content"> 
+            <h3> i am <span>aashna agarwal</span></h3>
+            <p class="info">I am Electronics and computer student who is seeking to find the opportunity to work in fun and challenging working environment that will encourage me to improve and learn new and necessary skills as well as be motivated by the company to do my best.</p>
+
+           
+        </div>
+        <!-- Image part -->
+        <div class="image">
+            <img src="my image.jpg" alt="" height = 300 width = 300>
+        </div>
+    </section>
+
+    <div id="about" class="about">
+        
+        <!-- About Part -->
+        <div class="row-1">
+            
+            <!-- Content part -->
+            <div class="content">
+                <h1 class="heading">about <span>me</span></h1>
+                
+                <!-- <h3>My Name Is Aashna Agarwal & I Am A second Year student at Thapar University</h3> -->
+                <div class="box-container">
+                    <div class="box">
+                        <p>
+                            <span>Gender :</span> Female
+                        </p>
+                        <p>
+                            <span>Linguistic abilities :</span> Hindi, English
+                        </p>
+                        <p>
+                            <span>College :</span> Thapar University
+                        </p>
+                        <p>
+                            <span>Branch :</span> Electronics and Computer
+                        </p>
+                        
+                        <p>
+                            <span>Year :</span> sophomore
+                        </p>
+                       
+
+                    </div>
+                    <div class="box">
+                        
+                        <p>
+                            <span>interest :</span> photography
+                        </p>
+                        <p>
+                            <span>Country :</span> India
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="acad" class="Academic background">
+        
+        <!-- About Part -->
+        <div class="row-1">
+            
+            <!-- Content part -->
+            <div class="content">
+                <h1 class="heading">academic <span>qualifications</span></h1>
+                
+                <!-- <h3>My Name Is Aashna Agarwal & I Am A second Year student at Thapar University</h3> -->
+                <div class="box-container">
+                    <div class="box">
+                        <p>
+                            <span>2020 - Present :</span> Thapar University, Patiala
+                        </p>
+                        <p>
+                            <span>2019 - 2020 :</span> Allen Coaching Institute, Kota
+                        </p>
+                        <p>
+                            <span>2017 - 2019 :</span> Tinsukia English Academy School, Tinsukia
+                        </p>
+                        <p>
+                            <span>2008 - 2017 :</span> Budding Buds Senior Secondary School, Tinsukia
+                        </p>
+                        
+                        <p>
+                            <span>2004 - 2008 :</span> Ryan International School, Surat
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="course" class="course">
+        
+        <!-- About Part -->
+        <div class="row-1">
+            
+            <!-- Content part -->
+            <div class="content">
+                <h1 class="heading">Skills <span></span></h1>
+                <div class="box-container">
+                    <div class="box">
+                        <p>C Language</p>
+                            <div class="container">
+                            <div class="skills c">75%</div>
+                            </div>
+
+                        <p>C++ Language</p>
+                            <div class="container">
+                             <div class="skills cpp">58%</div>
+                            </div>
+
+                        <p>Python Language</p>
+                        <div class="container">
+                         <div class="skills python">55%</div>
+                        </div>
+
+                        <p>machine learning</p>
+                            <div class="container">
+                            <div class="skills ml">35%</div>
+                            </div>
+
+                        <p>HTML language</p>
+                            <div class="container">
+                              <div class="skills html">40%</div>
+                            </div>
+
+                        <p>css language</p>
+                            <div class="container">
+                             <div class="skills css">35%</div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="project" class="project">
+        
+        <!-- About Part -->
+        <div class="row-1">
+            
+            <!-- Content part -->
+            <div class="content">
+                <h1 class="heading">projects <span></span></h1>
+                
+                <!-- <h3>My Name Is Aashna Agarwal & I Am A second Year student at Thapar University</h3> -->
+                <div class="box-container">
+                    <div class="box">
+                        <p>
+                            <span><b>My portfolio :</b></span> using html and css, i have created my profile in which one can navigate different sections of page just by clicking  on the list of options mentioned. <br>
+                        </p>
+                        <p>
+                            <span><b>Performing EDA :</b></span> using python, i have performed Exploratory data analysis which is the most necessary part to be performed before training the model in machine learning.<br>
+                        </p>
+                        <p>
+                            <span><b>Car Price Prediction  :</b></span> using python and linear regression method, to predict the price of the car.
+                        </p>
+                        <p>
+                            <span><b>Churn Prediction :</b></span> using python and logistic regression method, to predict if the consumer will discontinue using their services.
+                        </p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact">
+        
+        <!-- About Part -->
+        <div class="row-1">
+            
+            <!-- Content part -->
+            <div class="content">
+                <h1 class="heading">Contact <span>Details</span></h1>
+                
+                <!-- <h3>My Name Is Aashna Agarwal & I Am A second Year student at Thapar University</h3> -->
+                <div class="box-container">
+                    <div class="box">
+                        <p>
+                            <span>Contact Number :</span> +91-8011184840
+                        </p>
+                        <p>
+                            <span>e-mail id :</span>agarwalaashna85@gmail.com
+                        </p>
+                        <p>
+                            <span>residential Address :</span> Sector 1, Lane 3, Chaliha Nagar, Tinsukia (Assam)
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
